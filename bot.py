@@ -7,10 +7,10 @@ TOKEN = os.environ.get("TOKEN")
 PUSHCUT_API_KEY = "qwFvE6h5ZbplEn1ih_qJl"
 
 CANAL_VENDAS = 1502504473111822398
-CANAL_PERGUNTAS = 
+CANAL_PERGUNTAS = 1502512921152983132
 
 PUSHCUT_VENDAS = "https://api.pushcut.io/qwFvE6h5ZbplEn1ih_qJl/notifications/Venda%20Aprovada%F0%9F%92%B0"
-PUSHCUT_PERGUNTAS = ""
+PUSHCUT_PERGUNTAS = "https://api.pushcut.io/qwFvE6h5ZbplEn1ih_qJl/notifications/Pergunta%20Recebida%E2%9D%93"
 
 intents = discord.Intents.default()
 intents.message_content = True
